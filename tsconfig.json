@@ -1,5 +1,9 @@
 {
-  "compilerOptions": {},
-  "extends": "expo/tsconfig.base",
-  "strict": true
+	"compilerOptions": {
+		"lib": ["DOM", "ESNext"],
+		"jsx": "react-native",
+    "esModuleInterop": true
+	},
+	"extends": "expo/tsconfig.base",
+	"strict": true
 }
